@@ -1,0 +1,93 @@
+h1{
+    
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 600;
+    font-style:oblique;
+    text-align: center;
+    background-color: rgb(151, 212, 212);
+    border: 4px solid #e6f061;
+    border-radius: 10px;
+    
+}
+
+#yo img{
+    border-radius: 90%;
+    position: relative;
+    right: -60px;
+    top: 50%;
+    width: 160px;
+    height: 220px;
+    border-radius: 50%;
+}
+
+body{
+    background-color: rgb(89, 98, 177);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./fondo\ bonito.jpg');
+    position: inherit;
+    left: 600px;
+}
+
+h3{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(153, 236, 105);
+}
+
+ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(32, 192, 192);
+}
+ul.misGustos li {
+    position: relative; /* Para poder mover cosas si es necesario */
+    padding-left: 30px; /* Hacemos espacio a la izquierda para el icono */
+    margin-bottom: 10px; /* Espacio entre renglones */
+}
+.misGustos li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-size: cover; /* Ajustar imagen */
+}
+
+ul.futbol::before {
+    content: ""; /* Obligatorio para que aparezca */
+    
+    /* Tu imagen */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ02yZFgBX44Rlog4cDj0XzSI26VRhiXxLsSw&s'); 
+    background-size:1cm; /* Ajusta la imagen al tamaño de la caja */
+    background-repeat: no-repeat;
+    
+    /* Tamaño y posición del icono */
+    width: 20px;
+    height: 20px;
+    
+    /* Lo colocamos en su lugar (flotando a la izquierda absoluta) */
+    position: absolute;
+    left: 0;
+    top: 2px; /* Ajuste fino para alinearlo con el texto */
+}
+
+p{
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:beige;
+    border: 1px solid #ddd; /* Un borde gris muy sutil */
+    border-radius: 10px;    /* Esquinas redondeadas */
+    padding: 20px;
+    background-color:rgb(89, 98, 177); /* Un fondo gris casi blanco ayuda mucho */
+}
+
+a{
+    color:rgb(226, 183, 43);
+}
+
+strong{
+    color:aqua;
+}
